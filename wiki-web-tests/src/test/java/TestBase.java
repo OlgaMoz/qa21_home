@@ -12,6 +12,7 @@ public class TestBase {
     @BeforeClass
     public void setUp() {
         driver = new ChromeDriver();
+        //waiting of default element
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         //open site
