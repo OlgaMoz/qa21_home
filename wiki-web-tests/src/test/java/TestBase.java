@@ -16,7 +16,11 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         //open site
-        driver.get("https://en.wikipedia.org");
+        openSite("https://en.wikipedia.org");
+    }
+
+    public void openSite(String url) {
+        driver.get(url);
     }
 
     @AfterClass
@@ -27,5 +31,24 @@ public class TestBase {
 
     public void click(By locator) {
         driver.findElement(locator).click();
+    }
+
+    public void type(By locator, String text) {
+        click(locator);
+        driver.findElement(locator).clear();
+        driver.findElement(locator).sendKeys(text);
+    }
+
+    public void clickLoginButton() {
+        click(By.name("wploginattempt"));
+    }
+
+    public void fillLoginForm(String email, String pwd) {
+        type(By.id("wpName1"), email);
+        type(By.id("wpPassword1"), pwd);
+    }
+
+    public void initLogin() {
+        click(By.id("pt-login"));
     }
 }
