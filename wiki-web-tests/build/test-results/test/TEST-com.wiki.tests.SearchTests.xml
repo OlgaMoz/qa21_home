@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wiki.tests.SearchTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-05T14:05:39" hostname="LAPTOP-IO1JFVSD" time="2.082">
+  <properties/>
+  <testcase name="searchWikiTestQA" classname="com.wiki.tests.SearchTests" time="0.934"/>
+  <testcase name="searchWikiTestJava" classname="com.wiki.tests.SearchTests" time="1.144"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wiki.tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-05T14:05:41" hostname="LAPTOP-IO1JFVSD" time="2.633">
+  <properties/>
+  <testcase name="loginTest" classname="com.wiki.tests.LoginTest" time="2.633"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
