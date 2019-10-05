@@ -1,16 +1,15 @@
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
     @Test
-    public void loginTest() {
+    public void loginTest() throws InterruptedException {
         //init login
-        initLogin();
+        app.initLogin();
         //fill login form
-        fillLoginForm("qwer@poiuy.com", "qwer@poiuy.com");
+        app.fillLoginForm("qwer@poiuy.com", "qwer@poiuy.com");
         //click login button
-        clickLoginButton();
+        app.clickLoginButton();
 
 
     }

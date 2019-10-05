@@ -1,34 +1,27 @@
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SearchTests extends TestBase {
 
 
-    @Test
-    public void searchWikiTestJava() {
+    @Test(priority = 2)
+    public void searchWikiTestJava() throws InterruptedException {
 
         //type java
-        type(By.name("search"), "java");
-       click(By.name("search"));
-      /*   driver.findElement(By.name("search")).clear();
-        driver.findElement(By.name("search")).sendKeys("java");*/
+       app.type(By.name("search"), "java");
+       app.click(By.name("search"));
 
-        click(By.name("go"));
-
-        //pause
-
+       app.click(By.name("go"));
+      //  Assert.assertEquals(app.);
     }
 
-    @Test
-    public void searchWikiTestQA() {
+    @Test(priority = 1)
+    public void searchWikiTestQA() throws InterruptedException {
 
         //type QA
-        type(By.name("search"), "QA");
-       /* click(By.name("search"));
-        driver.findElement(By.name("search")).clear();
-        driver.findElement(By.name("search")).sendKeys("QA");*/
-
-        click(By.name("go"));
+        app.type(By.name("search"), "QA");
+        app.click(By.name("go"));
 
         //pause
 

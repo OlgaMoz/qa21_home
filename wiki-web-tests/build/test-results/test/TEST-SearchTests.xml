@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SearchTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-30T21:05:03" hostname="LAPTOP-IO1JFVSD" time="1.909">
+<testsuite name="SearchTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-02T11:32:04" hostname="LAPTOP-IO1JFVSD" time="2.655">
   <properties/>
-  <testcase name="searchWikiTestJava" classname="SearchTests" time="1.156"/>
-  <testcase name="searchWikiTestQA" classname="SearchTests" time="0.749"/>
+  <testcase name="searchWikiTestQA" classname="SearchTests" time="1.073"/>
+  <testcase name="searchWikiTestJava" classname="SearchTests" time="1.581"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 37128
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Aug 31, 2019 12:05:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
